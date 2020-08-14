@@ -1,0 +1,220 @@
+@font-face {
+    font-family: "Anderson Torchy";
+    src: url("../fonts/anderson_torchy_the_battery_boy-webfont.woff2") format("woff2"),
+    url("../fonts/anderson_torchy_the_battery_boy-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: "Chickweed Tilting";
+    src: url("../fonts/chickweed_titling-webfont.woff2") format("woff2"),
+    url("../fonts/chickweed_titling-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: "Anderson Stingray";
+    src: url("../fonts/anderson_stingray-webfont.woff2") format("woff2"),
+    url("../fonts/anderson_stingray-webfont.woff") format("woff");
+}
+body {
+    background-color: #000000;
+}
+.AFF-container {
+    width: 1000px !important;
+}
+#AFF-left-col {
+    background-color: #e3490b;
+    width: 195px;
+    padding-left: 0px;
+}
+.AFF-HomeButton {
+    background-image: url(../images/HomeButton_S.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+    margin: 5px;
+}
+.AFF-HomeButton a:hover {
+    color: #e5c588;
+    text-decoration: none;
+}
+#AFF-DateBanners {
+    margin: 20px 0px 5px 0px;
+}
+.AFF-SpecialAnnouncements {
+    background-image: url(../images/SpecialAnnouncementsBanner_S.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 177px 1px 177px 23px;
+}
+.AFF-SpecialAnnouncements-Content {
+    font-family: Chickweed Tilting, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e3490b;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+    line-height: 20px;
+}
+.AFF-SpecialAnnouncements-Content p {
+    margin-bottom: 8px !important;
+}
+.AFF-StarButtons {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px;
+}
+.AFF-Left-Images {
+    margin-bottom: 10px;
+}
+.AFF-Star {
+    position: relative;
+    display: block;
+    height: 180px;
+}
+#AFF-DonateButton {
+    width: 139px;
+    height: 166px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%) scale(1,1);
+    transition: all 0.3s ease;
+}
+#AFF-DonateButton:hover {
+    transform: translate(-50%, -50%) scale(1.1,1.1);
+}
+#AFF-ShopButton {
+    width: 143px;
+    height: 175px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%) scale(1,1);
+    transition: all 0.3s ease;
+}
+#AFF-ShopButton:hover {
+    transform: translate(-50%, -50%) scale(1.1,1.1);
+}
+#AFF-mid-col {
+    background-color: #e59908;
+    width: 640px;
+    padding-bottom: 230px;
+}
+.AFF-Nav {
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.AFF-nav-link {
+    font-family: Anderson Torchy, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+    color: #000000;
+    margin: auto;
+}
+.AFF-Nav a:hover {
+    color: #e5c588;
+    text-decoration: none;
+}
+.AFF-Nav-Col {
+    padding: 0px !important;
+    text-align: center;
+}
+.AFF-MainBodyContent {
+    background-image: url(../images/Frame-cuts_S.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+    position: relative;
+    top: 219px;
+    left: 0;
+}
+#AFF-HeaderLogo {
+    position: absolute;
+    top: 29px;
+    left: 10px;
+    z-index: 2;
+}
+#AFF-FeaturingArrow {
+    position: absolute;
+    top: 310px;
+    left: -15px;
+    z-index: 1;
+}
+.AFF-Tents {
+    padding-top: 481px;
+    width: 570px;
+}
+.AFF-TentContainer {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.AFF-Tent {
+    background-image: url(../images/Tent01_S.png);background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+}
+#AFF-Tent01 {
+    margin-top: 90px;
+}
+h3 {
+    font-family: Anderson Torchy, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    color: #e3490b;
+}
+h3 a {
+    font-family: Anderson Torchy, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    color: #e3490b;
+}
+h3 a:hover {
+    font-family: Anderson Torchy, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+}
+.AFF-SupportFooter {
+    margin-top: 40px;
+    text-align: center;
+}
+h4 {
+    font-family: superclarendon, serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 10px;
+    color: #e3490b;
+    margin-top: 10px;
+}
+#AFF-right-col {
+    background-color: #e3490b;
+    text-align: center;
+    padding-top: 10px;
+    width: 165px;
+}
+.AFF-Sponsor {
+    background-color: #e5c588;
+    border: 1px solid #e5c588;
+    border-radius: 5px;
+    width: 115px;
+    height: 115px;
+    margin: 10px auto 20px;
+    display: flex;
+    align-items: center;
+}
+#AFF-AnaheimLogo {
+    width: 114px;
+}
+.AFF-Thanks {
+    text-align: left;
+    padding-left: 25px;
+    margin-top: 20px;
+}
+.AFF-Thanks li {
+    list-style-type: none;
+    margin-bottom: 6px;
+}
+.AFF-Thanks-Name {
+    font-family: Anderson Stingray, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e59908;
+}
