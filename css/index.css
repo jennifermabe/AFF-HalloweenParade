@@ -359,3 +359,16 @@ h4 {
     left: 20px;
     z-index: 1;
 }
+/* Main Stage Page Specific */
+#AFF-MainStageHeader {
+    position: absolute;
+    top: 30px;
+    left: -190px;
+    z-index: 2;
+}
+.AFF-MainStageBody {
+    width: 100%;
+    position: relative;
+    top: 219px;
+    left: 0;
+}
