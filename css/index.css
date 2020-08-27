@@ -372,3 +372,49 @@ h4 {
     top: 219px;
     left: 0;
 }
+.AFF-MSTents {
+    width: 570px;
+}
+.AFF-MSTentContainer {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.AFF-MSTent {
+    background-image: url(../images/Tent01_S.png);background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+}
+.AFF-MainStageBanner {
+    background-image: url(../images/LeftBanner.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 160px 1px 130px 0px;
+    margin-top: 160px;
+    height: 691px;
+}
+.AFF-MSBanner-Content {
+    font-family: Komika Title, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e3490b;
+    text-align: center;
+    margin-left: -10px;
+    font-size: 14px;
+    line-height: 20px;
+}
+#AFF-MSRightStar01 {
+    position: absolute;
+    top: 370px;
+    left: 550px;
+    z-index: 2;
+}
+#AFF-MSLeftStars {
+    position: absolute;
+    top: 540px;
+    left: -70px;
+    z-index: 2;
+}
+#AFF-MSRightStars02 {
+    position: absolute;
+    top: 760px;
+    left: 360px;
+    z-index: 2;
+}
