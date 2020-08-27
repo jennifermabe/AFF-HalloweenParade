@@ -1,3 +1,4 @@
+/* Home Page and Universal */
 @font-face {
     font-family: "Anderson Torchy";
     src: url("../fonts/anderson_torchy_the_battery_boy-webfont.woff2") format("woff2"),
@@ -13,6 +14,11 @@
     src: url("../fonts/anderson_stingray-webfont.woff2") format("woff2"),
     url("../fonts/anderson_stingray-webfont.woff") format("woff");
 }
+@font-face {
+    font-family: "Komika Title";
+    src: url("../fonts/komtit__-webfont.woff2") format("woff2"),
+    url("../fonts/komtit__-webfont.woff") format("woff");
+}
 body {
     background-color: #000000;
 }
@@ -23,6 +29,7 @@ body {
     background-color: #e3490b;
     width: 195px;
     padding-left: 0px;
+    padding-right: 0px;
 }
 .AFF-HomeButton {
     background-image: url(../images/HomeButton_S.png);
@@ -53,13 +60,17 @@ body {
     font-size: 10px;
     line-height: 20px;
 }
-.AFF-SpecialAnnouncements-Content p {
+.AFF-Poem {
     margin-bottom: 8px !important;
+}
+.AFF-Indent {
+    text-indent: 13px;
 }
 .AFF-StarButtons {
     width: 100%;
     text-align: center;
     padding: 15px 0px;
+    position: relative;
 }
 .AFF-Left-Images {
     margin-bottom: 10px;
@@ -106,6 +117,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    z-index: 10;
 }
 .AFF-nav-link {
     font-family: Anderson Torchy, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -116,6 +128,12 @@ body {
 .AFF-Nav a:hover {
     color: #e5c588;
     text-decoration: none;
+}
+.AFF-Active a {
+    font-family: Anderson Torchy, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+    color: #e3490b;
+    margin: auto;
 }
 .AFF-Nav-Col {
     padding: 0px !important;
@@ -134,6 +152,12 @@ body {
     position: absolute;
     top: 29px;
     left: 10px;
+    z-index: 2;
+}
+#AFF-BottomLeftStars {
+    position: absolute;
+    top: 250px;
+    left: -20px;
     z-index: 2;
 }
 #AFF-FeaturingArrow {
@@ -217,4 +241,121 @@ h4 {
 .AFF-Thanks-Name {
     font-family: Anderson Stingray, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #e59908;
+}
+/* Contests Page Specific */
+.AFF-EntrySteps {
+    background-image: url(../images/EnterBanner.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 160px 1px 130px 0px;
+    margin-top: 160px;
+}
+.AFF-EntrySteps-Content {
+    font-family: Komika Title, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e3490b;
+    text-align: center;
+    margin-left: -10px;
+    font-size: 14px;
+    line-height: 20px;
+}
+#AFF-ContestBottomStar {
+    position: absolute;
+    top: 390px;
+    left: 20px;
+}
+#AFF-ContestsHeader {
+    position: absolute;
+    top: 30px;
+    left: -190px;
+    z-index: 2;
+}
+.AFF-ContestBody {
+    width: 100%;
+    position: relative;
+    top: 219px;
+    left: 0;
+}
+#AFF-ContestMiddleStar {
+    position: absolute;
+    top: 550px;
+    left: -50px;
+}
+.AFF-ContestC01 {
+    background-image: url(../images/ContestBack01.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 251px;
+}
+.AFF-ContestC02 {
+    background-image: url(../images/ContestBack02.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 263px;
+}
+.AFF-ContestTitle01 {
+    font-family: Chickweed Tilting, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000000;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: auto;
+    font-size: 40px;
+    padding-left: 210px;
+    padding-top: 25px;
+}
+.AFF-ContestInfo01 {
+    font-family: Komika Title, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e59908;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: auto;
+    font-size: 15px;
+    padding-left: 210px;
+    position: relative;
+}
+.AFF-ContestTitle02 {
+    font-family: Chickweed Tilting, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000000;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: auto;
+    font-size: 40px;
+    padding-left: 50px;
+    padding-top: 35px;
+}
+.AFF-ContestInfo02 {
+    font-family: Komika Title, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e59908;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: auto;
+    font-size: 15px;
+    padding-left: 50px;
+    position: relative;
+}
+.AFF-Indent01 {
+    text-indent: 10px;
+}
+.AFF-Indent02 {
+    text-indent: 15px;
+}
+.AFF-Indent03 {
+    text-indent: 20px;
+}
+.AFF-Indent04 {
+    text-indent: 25px;
+}
+.AFF-Indent05 {
+    text-indent: 30px;
+}
+.AFF-EntryFormBtn01 {
+    position: absolute;
+    top: 110px;
+    left: 450px;
+    z-index: 1;
+}
+.AFF-EntryFormBtn02 {
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    z-index: 1;
 }
