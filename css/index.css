@@ -42,6 +42,17 @@ body {
     color: #e5c588;
     text-decoration: none;
 }
+.AFF-ParadeButton {
+    background-image: url(../images/HomeButton_S.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+    margin: 5px;
+}
+.AFF-ParadeButton a:hover {
+    color: #e5c588;
+    text-decoration: none;
+}
 #AFF-DateBanners {
     margin: 20px 0px 5px 0px;
 }
@@ -213,8 +224,10 @@ h4 {
 #AFF-right-col {
     background-color: #e3490b;
     text-align: center;
-    padding-top: 10px;
     width: 165px;
+}
+#AFF-SupportArrow {
+    margin-top: 20px;
 }
 .AFF-Sponsor {
     background-color: #e5c588;
@@ -398,6 +411,157 @@ h4 {
     text-align: center;
     margin-left: -10px;
     font-size: 14px;
+    line-height: 20px;
+}
+#AFF-MSRightStar01 {
+    position: absolute;
+    top: 370px;
+    left: 550px;
+    z-index: 2;
+}
+#AFF-MSLeftStars {
+    position: absolute;
+    top: 540px;
+    left: -70px;
+    z-index: 2;
+}
+#AFF-MSRightStars02 {
+    position: absolute;
+    top: 760px;
+    left: 360px;
+    z-index: 2;
+}
+/* Artists Page Specific */
+#AFF-ArtistsHeader {
+    position: absolute;
+    top: 30px;
+    left: -190px;
+    z-index: 2;
+}
+.AFF-ArtistsBody {
+    width: 100%;
+    position: relative;
+    top: 219px;
+    left: 0;
+}
+.AFF-ArtistsTents {
+    width: 570px;
+}
+.AFF-ArtTentContainer {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.AFF-ArtistsTent {
+    background-image: url(../images/Tent01_S.png);background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+}
+.AFF-ArtistsBanner {
+    background-image: url(../images/LeftBanner.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 125px 1px 130px 0px;
+    margin-top: 160px;
+    height: 691px;
+}
+.AFF-ArtBanner-Content {
+    font-family: Komika Title, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e3490b;
+    text-align: center;
+    margin-left: -10px;
+    font-size: 20px;
+    line-height: 24px;
+}
+.AFF-ArtBanner-Content h3 {
+    font-family: Anderson Stingray, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 20px;
+}
+.AFF-ArtBanner-Content h4 {
+    font-family: Anderson Stingray, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e5c588;
+    text-align: left;
+    margin-left: -10px;
+    font-size: 25px;
+    line-height: 20px;
+}
+#AFF-h4a {
+    text-indent: 60px;
+}
+#AFF-h4b {
+    text-indent: 65px;
+}
+#AFF-h4c {
+    text-indent: 70px;
+}
+#AFF-MSRightStar01 {
+    position: absolute;
+    top: 370px;
+    left: 550px;
+    z-index: 2;
+}
+#AFF-MSLeftStars {
+    position: absolute;
+    top: 540px;
+    left: -70px;
+    z-index: 2;
+}
+#AFF-MSRightStars02 {
+    position: absolute;
+    top: 760px;
+    left: 360px;
+    z-index: 2;
+}
+/* Crafts Page Specific */
+#AFF-CraftsHeader {
+    position: absolute;
+    top: 30px;
+    left: -190px;
+    z-index: 2;
+}
+.AFF-CraftsBody {
+    width: 100%;
+    position: relative;
+    top: 219px;
+    left: 0;
+}
+.AFF-CraftsTents {
+    width: 570px;
+}
+.AFF-CraftsTentContainer {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.AFF-CraftsTent {
+    background-image: url(../images/Tent01_S.png);background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+}
+.AFF-CraftsBanner {
+    background-image: url(../images/LeftBanner.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 165px 1px 130px 0px;
+    margin-top: 160px;
+    height: 691px;
+}
+.AFF-CraftsBanner-Content {
+    font-family: Komika Title, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e3490b;
+    text-align: center;
+    margin-left: -10px;
+    font-size: 20px;
+    line-height: 27px;
+}
+.AFF-CraftsBanner-Content h3 {
+    font-family: Chickweed Tilting, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e3490b;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
     line-height: 20px;
 }
 #AFF-MSRightStar01 {
