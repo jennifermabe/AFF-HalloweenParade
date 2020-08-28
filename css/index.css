@@ -151,7 +151,7 @@ body {
     text-align: center;
 }
 .AFF-MainBodyContent {
-    background-image: url(../images/Frame-cuts_S.png);
+    background-image: url(../images/FrameHP.png);
     background-repeat: no-repeat;
     background-position: center top;
     width: 100%;
@@ -581,4 +581,33 @@ h4 {
     top: 760px;
     left: 360px;
     z-index: 2;
+}
+/* Act Page Specific */
+.AFF-ActName {
+    position: absolute;
+    width: 359px;
+    height: 57px;
+    top: 194px;
+    left: 150px;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AFF-ActName h1 {
+    font-family: Chickweed Tilting, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e3490b;
+    text-align: center;
+    font-size: 30px;
+}
+#AFF-Frame {
+    margin-top: 40px;
+}
+.AFF-MainStageBody p {
+    font-family: Komika Title, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000000;
+    text-align: left;
+    font-size: 15px;
+    margin: 30px auto 10px auto;
+    width: 500px;
 }
